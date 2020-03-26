@@ -1,5 +1,3 @@
-# Project2
-
 ## Project Description:
 This will be a project that will display covid - 19 data and statistics, it will also give an about page and ways to avoid it. 
 The way it will be set up is there will be a home page with a nav bar that will take you home, to the about covid, and a page
@@ -14,5 +12,4 @@ Here I will upload progress of the website as I go.
 
 
 The working API call in postman: 
-![Image of working API]
-(https://i.imgur.com/fhyUhhx.png)
+![Image of working API](https://i.imgur.com/fhyUhhx.png)

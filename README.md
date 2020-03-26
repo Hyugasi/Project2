@@ -10,3 +10,9 @@ The api I will be using in this project is this one right [here](https://documen
 I have tested it in postman and it does recieve the data I was hoping to get for it. I will try to implement a map maybe to show where it is the most active but I don't know if I'll be able to make that happen. 
 
 ## Screenshots
+Here I will upload progress of the website as I go. 
+
+
+The working API call in postman: 
+![Image of working API]
+(https://i.imgur.com/fhyUhhx.png)

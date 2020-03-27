@@ -4,7 +4,7 @@ The way it will be set up is there will be a home page with a nav bar that will 
 that shows you how to avoid it.
 
 ## Working API 
-The api I will be using in this project is this one right [here](https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest#intro)
+The api's I will be using in this project are this one right [here](https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest#intro) and this [one](https://newsapi.org/v2/top-headlines?q=COVID&from=2020-03-16&sortBy=publishedAt&apiKey=93d0380b616c44ee82169a2f0fbe3cb1&pageSize=10&page=2)
 I have tested it in postman and it does recieve the data I was hoping to get for it. I will try to implement a map maybe to show where it is the most active but I don't know if I'll be able to make that happen. 
 
 ## Screenshots
@@ -14,6 +14,7 @@ Wireframes [here](https://i.imgur.com/ag9HZkg.png)
 
 The working API call in postman: 
 ![Image of working API](https://i.imgur.com/fhyUhhx.png)
+![Image of working API](https://i.imgur.com/ogFpHiT.png)
 
 
 ## MVPs

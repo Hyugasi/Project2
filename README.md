@@ -13,3 +13,30 @@ Here I will upload progress of the website as I go.
 
 The working API call in postman: 
 ![Image of working API](https://i.imgur.com/fhyUhhx.png)
+
+
+## MVPs
+
+[o] API call and pulling of data
+[o] Organization of API data
+[o] Search box
+[o] Responsivness
+[o] Visualization
+
+
+## Post MVPs
+
+[o] News API for related articles
+[o] More design
+
+
+## Time Priority Matrix
+
+| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Adding a Search Form | H | 3hrs| 0hrs | hrs |
+| Working with API | H | 5hrs| hrs | hrs |
+| Design of Site | H | 6hrs| hrs | hrs |
+| Visualization | H | 7hrs| hrs | hrs |
+| Responsive | H | 5hrs| hrs | hrs |
+| Total | H | 26hrs| hrs | hrs |

@@ -17,17 +17,17 @@ The working API call in postman:
 
 ## MVPs
 
-- [] API call and pulling of data
-- [] Organization of API data
-- [] Search box
-- [] Responsivness
-- [] Visualization
+- [ ] API call and pulling of data
+- [ ] Organization of API data
+- [ ] Search box
+- [ ] Responsivness
+- [ ] Visualization
 
 
 ## Post MVPs
 
-- [] News API for related articles
-- [] More design
+- [ ] News API for related articles
+- [ ] More design
 
 
 ## Time Priority Matrix

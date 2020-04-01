@@ -3,7 +3,8 @@ import React from 'react'
 function Prevent() {
     return(
         <div>
-            Prevent
+            <h1>This is how you can help stop the spread!</h1>
+            <p></p>
         </div>
     )
 }

@@ -1,9 +1,16 @@
-import React from 'react';
+import React from "react";
 
-function Article() {
+function Article(props) {
+  if (!props.article) {
+    return <></>
+  }
+  console.log('the props in article', props.article)
+
+
   return (
     <div>
-        <h1>Articles</h1>
+      this is an article eventually
+      {/* {articles} */}
     </div>
   );
 }

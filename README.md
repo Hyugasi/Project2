@@ -19,7 +19,7 @@ The working API call in postman:
 
 ## MVPs
 
-- [ ] API call and pulling of data
+- [x] API call and pulling of data
 - [ ] Organization of API data
 - [ ] Search box
 - [ ] Responsivness

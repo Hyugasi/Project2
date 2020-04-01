@@ -1,12 +1,12 @@
 import React from 'react'
-import Header from '../header/header'
 import Article from '../articles/article'
 import Footer from '../footer/footer'
 
-function Home() {
+function Home(props) {
+    //console.log('the props in home',props)
     return(
         <div>
-            <Article />
+            <Article article = {props.article.articles} />
             <Footer />
         </div>
     )

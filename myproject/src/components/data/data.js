@@ -1,26 +1,28 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 
-function Data() {
-    const [covidData, setCovidData] = useState('')
-    const [country, setCountry] = useState('US')
+function Data(props) {
+    if (!props.covidData) {
+        return <></>
+    }
+    console.log('These are the props in Data function', props)
 
-    useEffect(() => {
-        const covidUrl = `https://api.covid19api.com/country/${country}/status/confirmed?`
-        const makeApiCall = async () => {
-            const res = await fetch(covidUrl)
-            const json = await res.json()
-            setCovidData(json)
-            console.log(json)
-        }
-        makeApiCall()
-    }, [country])
-
-
-    return(
-        <div>
-            This is Data
-        </div>
-    )
+    let covidData = props.covidData.map((i, e) => {
+        return (
+            <div>
+                <h2>All cases in US. Days since first case: {e}:{i.Cases}</h2>
+                {/* <p>{i.Cases}</p> */}
+            </div>
+        )
+    })
+        return(
+            <div>
+                <p>This is the dash doe</p>
+                <p>{covidData}</p>
+            </div>
+        ) 
+   
+    
 }
+
 
 export default Data

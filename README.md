@@ -15,9 +15,10 @@ Here I will upload progress of the website as I go.
 
 Wireframes [here](https://i.imgur.com/ag9HZkg.png)
 
-The working API call in postman:
+<details><summary>The working API call in postman:</summary>
 ![Image of working API](https://i.imgur.com/fhyUhhx.png)
 ![Image of working API](https://i.imgur.com/ogFpHiT.png)
+</details>
 
 ## MVPs
 

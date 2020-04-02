@@ -15,10 +15,9 @@ Here I will upload progress of the website as I go.
 
 Wireframes [here](https://i.imgur.com/ag9HZkg.png)
 
-<details><summary>The working API call in postman:</summary>
+The working API call in postman:
 ![Image of working API](https://i.imgur.com/fhyUhhx.png)
 ![Image of working API](https://i.imgur.com/ogFpHiT.png)
-</details>
 
 ## MVPs
 
@@ -26,20 +25,24 @@ Wireframes [here](https://i.imgur.com/ag9HZkg.png)
 - [x] Organization of API data
 - [ ] Responsivness
 - [ ] Visualization
-- [ ] Search Function
+- [x] Search Function
 
 ## Post MVPs
 
 - [x] News API for related articles
 - [ ] More design
 
+## Link to Site on AWS
+
+[Here](http://isaiah-project2.s3-website.us-east-2.amazonaws.com/home)
+
 ## Time Priority Matrix
 
 | Component            | Priority | Estimated Time | Time Invetsted | Actual Time |
 | -------------------- | :------: | :------------: | :------------: | :---------: |
-| Adding a Search Form |    H     |      3hrs      |      0hrs      |     hrs     |
+| Adding a Search Form |    H     |      3hrs      |      5hrs      |    5hrs     |
 | Working with API     |    H     |      5hrs      |     10hrs      |    10hrs    |
 | Design of Site       |    H     |      6hrs      |      hrs       |     hrs     |
 | Visualization        |    H     |      7hrs      |      hrs       |     hrs     |
 | Responsive           |    H     |      5hrs      |      hrs       |     hrs     |
-| Total                |    H     |     26hrs      |     10hrs      |    10hrs    |
+| Total                |    H     |     26hrs      |     15hrs      |    15hrs    |

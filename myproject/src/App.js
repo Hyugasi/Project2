@@ -7,20 +7,19 @@ import Prevent from "./components/prevent/prevent";
 
 function App() {
   const [covidData, setCovidData] = useState("");
-  const [country, setCountry] = useState("US");
+  //   const [country, setCountry] = useState("US");
 
   useEffect(() => {
-    const covidUrl = `https://api.covid19api.com/total/country/${country}/status/confirmed`;
+    const covidUrl = `https://api.covid19api.com/summary`;
     const makeApiCall = async () => {
       const res = await fetch(covidUrl);
       const json = await res.json();
       setCovidData(json);
     };
     makeApiCall();
-  }, [country]);
+  }, []);
 
   const [article, setArticle] = useState("");
-
 
   useEffect(() => {
     const articleUrl =
@@ -34,7 +33,7 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className="main">
       <div>
         <nav>
           <Link to="/home">

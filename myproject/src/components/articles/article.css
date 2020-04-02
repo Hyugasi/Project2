@@ -1,0 +1,36 @@
+.article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.article img {
+  width: 70%;
+  height: auto;
+}
+.article a {
+  text-decoration: none;
+  color: #bfbfbf;
+}
+.article a:hover {
+  color: white;
+}
+h1 {
+  text-align: center;
+}
+.articleReturn {
+  text-align: center;
+  color: #bfbfbf;
+  padding: 0 40px;
+}
+.articleReturn p:nth-child(5) {
+  padding: 20px;
+}
+.articleReturn a {
+  text-decoration: none;
+  color: #bfbfbf;
+}
+.articleReturn a:hover {
+  color: white;
+}

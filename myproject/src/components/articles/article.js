@@ -23,7 +23,7 @@ function Article(props) {
       <h1>Articles</h1>
       {articles}
       <p>
-        Got all information from:{" "}
+        Got all articles from:{" "}
         <a
           href="https://newsapi.org/"
           target="_blank"

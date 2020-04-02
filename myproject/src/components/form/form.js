@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import "./form.css";
 
-function Form() {
+function Form(props) {
   const [input, setInput] = useState("");
+
   const handleChange = e => {
     const userInput = e.target.value;
     setInput(userInput);
@@ -10,10 +12,11 @@ function Form() {
   const handleSubmit = e => {
     console.log("Form - input", input);
     e.preventDefault();
+    props.onSubmit(input);
   };
   return (
     <div>
-      <form>
+      <form onSubmit={handleSubmit}>
         <input
           type="text"
           placeholder="Search By Country"

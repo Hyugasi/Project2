@@ -1,4 +1,5 @@
 import React from "react";
+import "./prevent.css";
 
 function Prevent() {
   return (
@@ -13,7 +14,7 @@ function Prevent() {
           src="https://www.youtube.com/embed/tIwdf3WKe3Y"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div>
     </div>

@@ -1,0 +1,16 @@
+form {
+  text-align: center;
+  padding: 20px;
+}
+input {
+  padding: 5px;
+  border: solid 2px #630308;
+  background-color: #bfbfbf;
+}
+
+button {
+  margin-left: 10px;
+  border: solid 2px #630308;
+  padding: 5px;
+  background-color: #bfbfbf;
+}

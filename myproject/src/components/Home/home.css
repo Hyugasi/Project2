@@ -1,9 +1,5 @@
-.video {
+.gif {
   text-align: center;
   display: block;
   /* margin: 0 auto; */
-}
-iframe {
-  width: 50%;
-  height: 50%;
 }

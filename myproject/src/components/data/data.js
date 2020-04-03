@@ -8,37 +8,31 @@ function Data(props) {
   if (!props.covidData) {
     return <></>;
   }
-  // console.log(
-  //   "These are the props in Data function",
-  //   props.covidData.Countries
-  // );
 
   const handleSubmit = input => {
-    console.log(props.covidData.Countries);
-    console.log("App - input", input);
     const name = input.toLowerCase();
     const covidArr = props.covidData.Countries.filter(item => {
-      console.log(item);
       return item.Country.toLowerCase() === name;
     });
     setFilterData(covidArr);
-    console.log("covidArr data", covidArr);
   };
 
   const covidData = props.covidData.Countries.map((i, e) => {
-    return (
-      <div className="box" key={e}>
-        <div key={e} className="Data">
-          <h2>{i.Country}</h2>
-          <p>New Confirmed: {i.NewConfirmed}</p>
-          <p>Total Confirmed: {i.TotalConfirmed}</p>
-          <p>New Deaths: {i.NewDeaths}</p>
-          <p>Total Deaths: {i.TotalDeaths}</p>
-          <p>New Recovered: {i.NewRecovered}</p>
-          <p>Total Recovered: {i.TotalRecovered}</p>
+    if (i.Country.toLowerCase().includes(props.input)) {
+      return (
+        <div className="box" key={e}>
+          <div key={e} className="Data">
+            <h2>{i.Country}</h2>
+            <p>New Confirmed: {i.NewConfirmed}</p>
+            <p>Total Confirmed: {i.TotalConfirmed}</p>
+            <p>New Deaths: {i.NewDeaths}</p>
+            <p>Total Deaths: {i.TotalDeaths}</p>
+            <p>New Recovered: {i.NewRecovered}</p>
+            <p>Total Recovered: {i.TotalRecovered}</p>
+          </div>
         </div>
-      </div>
-    );
+      );
+    }
   });
 
   const mappedCovid = filterData.map((covidArr, e) => {
@@ -55,16 +49,20 @@ function Data(props) {
       </div>
     );
   });
-  // if(input === name){
-  //     return (
-  //         {mappedCovid}
-  //     )
-  // }else{
-  //     return (covidData)
-  // }
+
   return (
     <div>
-      <Form onSubmit={handleSubmit} />
+      <div>
+        <form onSubmit={props.handleSubmit}>
+          <input
+            type="text"
+            placeholder="Search By Country"
+            onChange={props.handleChange}
+            value={props.input}
+          />
+          <button>Search</button>
+        </form>
+      </div>
       {mappedCovid}
       {covidData}
     </div>

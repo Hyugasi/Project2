@@ -8,6 +8,19 @@ import Prevent from "./components/prevent/prevent";
 function App() {
   const [covidData, setCovidData] = useState("");
   //   const [country, setCountry] = useState("US");
+  const [input, setInput] = useState("");
+  const [search, setSearch] = useState();
+
+  const handleChange = e => {
+    // const userInput = e.target.value;
+    setInput(e.target.value);
+    console.log("app handleChange", input);
+  };
+
+  const handleSubmit = e => {
+    e.preventDefault();
+    // onSubmit(input);
+  };
 
   useEffect(() => {
     const covidUrl = `https://api.covid19api.com/summary`;
@@ -35,19 +48,30 @@ function App() {
   return (
     <div className="main">
       <div>
-        <nav>
-          <Link to="/home">
+        <nav className="nav">
+          <Link to="/home" className="nav-item">
             <h1>Covid-19 Tracker</h1>
           </Link>
-          <Link to="/data">
+          <Link to="/data" className="nav-item">
             <h2>Statistics</h2>
           </Link>
-          <Link to="/prevent">
+          <Link to="/prevent" className="nav-item">
             <h2>How to Prevent</h2>
           </Link>
         </nav>
 
         <main>
+          {/* <div>
+            <form onSubmit={handleSubmit}>
+              <input
+                type="text"
+                placeholder="Search By Country"
+                onChange={handleChange}
+                value={input}
+              />
+              <button>Search</button>
+            </form>
+          </div> */}
           <Switch>
             <Route
               path="/home"
@@ -55,7 +79,15 @@ function App() {
             />
             <Route
               path="/data"
-              render={data => <Data covidData={covidData} {...data} />}
+              render={data => (
+                <Data
+                  covidData={covidData}
+                  {...data}
+                  input={input}
+                  handleChange={handleChange}
+                  handleSubmit={handleSubmit}
+                />
+              )}
             />
             <Route path="/prevent" component={Prevent} />
             <Redirect to="/home" />

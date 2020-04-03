@@ -42,7 +42,7 @@ The working API call in postman:
 | -------------------- | :------: | :------------: | :------------: | :---------: |
 | Adding a Search Form |    H     |      3hrs      |      5hrs      |    5hrs     |
 | Working with API     |    H     |      5hrs      |     10hrs      |    10hrs    |
-| Design of Site       |    H     |      6hrs      |      hrs       |     hrs     |
-| Visualization        |    H     |      7hrs      |      hrs       |     hrs     |
-| Responsive           |    H     |      5hrs      |      hrs       |     hrs     |
-| Total                |    H     |     26hrs      |     15hrs      |    15hrs    |
+| Design of Site       |    H     |      6hrs      |      2hrs      |    2hrs     |
+| Visualization        |    H     |      7hrs      |      5hrs      |    5hrs     |
+| Responsive           |    H     |      5hrs      |      1hrs      |    1hrs     |
+| Total                |    H     |     26hrs      |     23hrs      |    23hrs    |

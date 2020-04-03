@@ -9,14 +9,6 @@ function Data(props) {
     return <></>;
   }
 
-  // const handleSubmit = input => {
-  //   const name = input.toLowerCase();
-  //   const covidArr = props.covidData.Countries.filter(item => {
-  //     return item.Country.toLowerCase() === name;
-  //   });
-  //   setFilterData(covidArr);
-  // };
-
   const covidData = props.covidData.Countries.map((i, e) => {
     if (i.Country.toLowerCase().startsWith(props.input)) {
       return (

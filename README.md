@@ -11,8 +11,6 @@ I have tested it in postman and it does recieve the data I was hoping to get for
 
 ## Screenshots
 
-Here I will upload progress of the website as I go.
-
 Wireframes [here](https://i.imgur.com/ag9HZkg.png)
 
 The working API call in postman:

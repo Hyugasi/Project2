@@ -7,19 +7,15 @@ import Prevent from "./components/prevent/prevent";
 
 function App() {
   const [covidData, setCovidData] = useState("");
-  //   const [country, setCountry] = useState("US");
   const [input, setInput] = useState("");
-  const [search, setSearch] = useState();
 
   const handleChange = e => {
-    // const userInput = e.target.value;
     setInput(e.target.value);
     console.log("app handleChange", input);
   };
 
   const handleSubmit = e => {
     e.preventDefault();
-    // onSubmit(input);
   };
 
   useEffect(() => {
@@ -61,17 +57,6 @@ function App() {
         </nav>
 
         <main>
-          {/* <div>
-            <form onSubmit={handleSubmit}>
-              <input
-                type="text"
-                placeholder="Search By Country"
-                onChange={handleChange}
-                value={input}
-              />
-              <button>Search</button>
-            </form>
-          </div> */}
           <Switch>
             <Route
               path="/home"

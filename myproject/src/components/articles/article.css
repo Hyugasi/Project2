@@ -12,15 +12,22 @@
 .article a {
   text-decoration: none;
   color: #bfbfbf;
+  padding: 10px;
 }
 .article a:hover {
   color: white;
 }
+h2 {
+  padding: 20px 0;
+}
 h1 {
   text-align: center;
+  padding: 20px;
 }
 .articleReturn {
+  font-family: "Raleway";
   text-align: center;
+
   color: #bfbfbf;
   padding: 0 40px;
 }

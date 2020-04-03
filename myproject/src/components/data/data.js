@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./data.css";
-import Form from "../form/form";
+import "./form.css";
 
 function Data(props) {
   const [filterData, setFilterData] = useState([]);
@@ -60,7 +60,7 @@ function Data(props) {
             onChange={props.handleChange}
             value={props.input}
           />
-          <button>Search</button>
+          <button onSubmit={props.handleSubmit}>Search</button>
         </form>
       </div>
       {mappedCovid}

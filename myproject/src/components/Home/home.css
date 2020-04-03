@@ -1,5 +1,7 @@
-.gif {
-  text-align: center;
-  display: block;
-  /* margin: 0 auto; */
+/* .image {
+  height: 20vh;
+} */
+
+img {
+  width: 100%;
 }

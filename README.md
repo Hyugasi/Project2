@@ -23,14 +23,14 @@ The working API call in postman:
 
 - [x] API call and pulling of data
 - [x] Organization of API data
-- [ ] Responsivness
-- [ ] Visualization
+- [x] Responsivness
+- [x] Visualization
 - [x] Search Function
 
 ## Post MVPs
 
 - [x] News API for related articles
-- [ ] More design
+- [x] More design
 
 ## Link to Site on AWS
 

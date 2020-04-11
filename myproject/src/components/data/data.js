@@ -10,7 +10,7 @@ function Data(props) {
   }
 
   const covidData = props.covidData.Countries.map((i, e) => {
-    if (i.Country.toLowerCase().startsWith(props.input)) {
+    if (i.Country.toLowerCase().startsWith(props.input.toLowerCase())) {
       return (
         <div className="box" key={e}>
           <div key={e} className="Data">
